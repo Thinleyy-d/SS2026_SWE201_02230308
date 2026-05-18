@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "PushDemo",
+    "slug": "PushDemo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tdorji04.pushdemo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.tdorji04.pushdemo"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ed66220a-4d25-47e3-a73e-fd307be35750"
+      }
+    },
+    "owner": "tdorji04"
+  }
+}
